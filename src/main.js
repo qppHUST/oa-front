@@ -10,7 +10,7 @@ import 'font-awesome/css/font-awesome.css'
 import {postRequest, putRequest, getRequest, deleteRequest} from "@/utils/api"
 
 Vue.config.productionTip = false
-Vue.use(elementui)
+Vue.use(elementui,{size:'small'})
 
 Vue.prototype.postRequest = postRequest
 Vue.prototype.putRequest = putRequest
