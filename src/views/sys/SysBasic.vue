@@ -30,7 +30,7 @@ import PosMana from '@/components/sys/basic/PosMana.vue';
 export default {
     data() {
         return {
-            activeName: "second"
+            activeName: "five"
         };
     },
     components: { DepMana, JoblevelMana, PermissMana, EcMana, PosMana }
