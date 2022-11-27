@@ -5,13 +5,14 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+      routes: []
   },
-  getters: {
-  },
-  mutations: {
+  mutations: {//同步执行
+      initRoutes(state, data) {
+          state.routes = data
+      }
   },
   actions: {
-  },
-  modules: {
+      //异步执行
   }
 })
