@@ -10,7 +10,6 @@ export const initMenu = (router, store) => {
             let fmtRoutes = formatRoutes(data);
             //添加到路由
             router.addRoutes(fmtRoutes);
-            console.log(router)
             //将数据存到Vuex
             store.commit('initRoutes', fmtRoutes);
         }

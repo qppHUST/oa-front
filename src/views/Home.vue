@@ -41,7 +41,7 @@
             </el-breadcrumb-item>
           </el-breadcrumb>
           <div class="homeWelcome" v-if="this.$router.currentRoute.path == '/home'">
-            欢迎来到cloudHelp
+            欢迎来到 OA-system
           </div>
           <router-view class="homeRouterView" />
         </el-main>
